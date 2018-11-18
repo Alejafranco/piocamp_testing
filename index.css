@@ -1,5 +1,40 @@
+body{
+  background-image: url(http://dissenyaweb.com/blog/diseno_web/wp-content/uploads/large-background-1024x724.jpg);
+  font-family: 'Mali', cursive;
+}
+
+.container{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+
+input{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #503426;
+  padding: 5px;
+}
+
+button{
+  border-radius: 5px;
+  background-color: #503426;
+  color: white;
+  width: 100px;
+  padding: 6px;
+}
+
 table, td, th {
   border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
 }
 
 table {
@@ -8,5 +43,10 @@ table {
 }
 
 th {
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
+}
+
+td{
+  padding: 5px 20px;
 }
