@@ -70,4 +70,17 @@ describe('Codebreaker Test', function(){
 
         test.equal(result, "xoox", "Tienes dos número en la posicion correcta y uno no!");
     })
+
+})
+
+describe('Test cantidad de numeros', function(){
+    it ('Debe retornar MAS de 4 números', function(){
+        let result = guess("12345")
+        test.equal(result, "Debes escribir solo 4 números", "Retorna debes escribir solo 4 números");
+    })
+
+    it ('Debe retornar MENOS de 4 números', function(){
+        let result = guess("123")
+        test.equal(result, "Debes escribir 4 números", "Retorna debes escribir 4 números");
+    })
 })
